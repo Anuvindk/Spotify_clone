@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Borel&family=Metal+Mania&family=Montserrat:wght@300;400;500;600;700&family=Poppins&family=Raleway&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="Assets/logo.png" type="image/x-icon" />
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main-container">
+      <div class="main-sidebar">
+        <div class="main-side-nav">
+          <div class="icon-header-group" style="opacity: 1">
+            <i class="fa-solid fa-house"></i>
+            <span class="icon-header">Home</span>
+          </div>
+          <div class="icon-header-group">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <span class="icon-header">Search</span>
+          </div>
+        </div>
+        <div class="main-side-lib">
+          <div class="side-lib">
+            <div class="side-lib-left icon-header-group">
+              <img src="Assets/library_icon.png" alt="" />
+              <span class="icon-header icon-header-group">Your Library</span>
+            </div>
+            <div class="side-lib-right">
+              <i class="fa-solid fa-plus"></i>
+              <i class="fa-solid fa-arrow-right"></i>
+            </div>
+          </div>
+          <div class="side-lib-card">
+            <div class="sl-card-header icon-header">
+              Create your own playlist
+            </div>
+            <div>It's easy we'll help you.</div>
+            <button class="btn">Create playlist</button>
+          </div>
+          <div class="side-lib-card">
+            <div class="sl-card-header icon-header">
+              Let's find some podcasts to follow
+            </div>
+            <div class="normal">We'll keep you updated on your episodes.</div>
+            <button class="btn">Browse podcasts</button>
+          </div>
+        </div>
+      </div>
+      <div class="main-content">
+        <div class="main-nav">
+          <div class="nav-left">
+            <img src="Assets/backward_icon.png" alt="" />
+            <img src="Assets/forward_icon.png" alt="" />
+          </div>
+          <div class="nav-right">
+            <button class="btn">Upgrade</button>
+            <button class="btn bg-dark">
+              <i class="fa-solid fa-download"></i>Install App
+            </button>
+            <i class="fa-regular fa-user"></i>
+          </div>
+        </div>
+        
+          <h2>Recently Played</h2>
+          <div class="main-container2">
+            <div class="main-card">
+              <img src="Assets/card1img.jpeg" alt="" />
+              <p style="font-weight: 700">Top 50- Global</p>
+              <p>Your daily update of the most played tracks rig..</p>
+            </div>
+          </div>
+
+          <h2>Trending now near you</h2>
+          <div class="main-container2">
+            <div class="main-card">
+              <img src="Assets/card2img.jpeg" alt="" />
+              <p style="font-weight: 700">Top 10- Global</p>
+              <p>Your daily update of the most played tracks rig..</p>
+            </div>
+            <div class="main-card">
+                <img src="Assets/card3img.jpeg" alt="" />
+                <p style="font-weight: 700">Top 50- Global</p>
+                <p>Your daily update of the most played tracks rig..</p>
+              </div>
+              <div class="main-card">
+                <img src="Assets/card4img.jpeg" alt="" />
+                <p style="font-weight: 700">Top 50- Global</p>
+                <p>Your daily update of the most played tracks rig..</p>
+              </div>
+          </div>
+          <h2>Featured Charts</h2>
+          <div class="main-container2">
+            <div class="main-card">
+              <img src="Assets/card5img.jpeg" alt="" />
+              <p style="font-weight: 700">Top Songs- Global</p>
+              <p>Your daily update of the most played tracks rig..</p>
+            </div>
+            <div class="main-card">
+                <img src="Assets/card6img.jpeg" alt="" />
+                <p style="font-weight: 700">Top Songs- India</p>
+                <p>Your daily update of the most played tracks rig..</p>
+              </div>
+              <div class="main-card">
+                <img src="Assets/card1img.jpeg" alt="" />
+                <p style="font-weight: 700">Top 50- Global</p>
+                <p>Your daily update of the most played tracks rig..</p>
+              </div>
+          </div>
+          <div class="content-footer">
+            <div></div>
+          </div>
+      </div>
+      <div class="player">
+        <div class="player-album">
+            <img src="Homework Assets/album_picture.jpeg" alt="">
+            <div class="album-artist-title">
+                <div class="h">Daylight</div>
+            David Kushner</div>
+            <img src="Homework Assets/album_icon1.png" alt="" class="img-sm">
+            <img src="Homework Assets/album_icon2.png" alt="" class="img-sm">
+        </div>
+        <div class="main-player">
+            <div class="player-icons">
+            <img src="Assets/player_icon1.png" alt="">
+            <img src="Assets/player_icon2.png" alt="">
+            <img src="Assets/player_icon3.png" alt="" style="opacity: 1; height: 1.8rem;">
+            <img src="Assets/player_icon4.png" alt="">
+            <img src="Assets/player_icon5.png" alt="">
+        </div>
+        <div class="player-bar">
+            <span>00:00</span>
+            <input type="range" min="0" max="100" value="30" step="1" class="slider">
+            <span>03:00</span>
+        </div>
+        </div>
+        <div class="player-controls">
+            <div class="img-sm">
+                <img src="Homework Assets/controls_icon1.png" alt="">
+                <img src="Homework Assets/controld_icon2.png" alt="">
+                <img src="Homework Assets/controls_icon1.png" alt="">
+                <img src="Homework Assets/controld_icon2.png" alt="">
+                <img src="Homework Assets/controls_icon5.png" alt="">
+                <input type="range" id="slider">
+            </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
